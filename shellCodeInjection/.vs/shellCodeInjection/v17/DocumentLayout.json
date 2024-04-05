@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cpat-w-347355\\source\\repos\\shellCodeInjection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{168F6D65-1841-4FF8-B4BE-1912413B5A45}|shellCodeInjection\\shellCodeInjection.vcxproj|C:\\Users\\cpat-w-347355\\source\\repos\\shellCodeInjection\\shellCodeInjection\\crowinject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{168F6D65-1841-4FF8-B4BE-1912413B5A45}|shellCodeInjection\\shellCodeInjection.vcxproj|solutionrelative:shellCodeInjection\\crowinject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "crowinject.cpp",
+              "DocumentMoniker": "C:\\Users\\cpat-w-347355\\source\\repos\\shellCodeInjection\\shellCodeInjection\\crowinject.cpp",
+              "RelativeDocumentMoniker": "shellCodeInjection\\crowinject.cpp",
+              "ToolTip": "C:\\Users\\cpat-w-347355\\source\\repos\\shellCodeInjection\\shellCodeInjection\\crowinject.cpp",
+              "RelativeToolTip": "shellCodeInjection\\crowinject.cpp",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAowE8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T06:53:09.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
