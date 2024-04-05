@@ -1,0 +1,3 @@
+﻿  helloworld.cpp
+C:\Users\cpat-w-347355\source\repos\MathLibrary\helloworld\helloworld.cpp(86,8): warning C4101: 'dwPriorityClass': unreferenced local variable
+  helloworld.vcxproj -> C:\Users\cpat-w-347355\source\repos\MathLibrary\x64\Debug\helloworld.exe

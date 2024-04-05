@@ -1,0 +1,4 @@
+LIBRARY MathLibrary
+
+EXPORTS
+attackFunction @1
