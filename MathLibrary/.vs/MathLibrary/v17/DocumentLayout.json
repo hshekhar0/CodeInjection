@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A80E7893-383E-498E-8C13-6E92B9D5E43A}|MathLibrary\\MathLibrary.vcxproj|C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\MathLibrary\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A80E7893-383E-498E-8C13-6E92B9D5E43A}|MathLibrary\\MathLibrary.vcxproj|solutionrelative:MathLibrary\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F8FF470-0EFF-49D6-AE32-A0F7BF50655E}|helloworld\\helloworld.vcxproj|C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\helloworld\\helloworld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F8FF470-0EFF-49D6-AE32-A0F7BF50655E}|helloworld\\helloworld.vcxproj|solutionrelative:helloworld\\helloworld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80E7893-383E-498E-8C13-6E92B9D5E43A}|MathLibrary\\MathLibrary.vcxproj|C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\MathLibrary\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A80E7893-383E-498E-8C13-6E92B9D5E43A}|MathLibrary\\MathLibrary.vcxproj|solutionrelative:MathLibrary\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A80E7893-383E-498E-8C13-6E92B9D5E43A}|MathLibrary\\MathLibrary.vcxproj|C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\MathLibrary\\Source.def||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -38,25 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "helloworld.cpp",
               "DocumentMoniker": "C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\helloworld\\helloworld.cpp",
               "RelativeDocumentMoniker": "helloworld\\helloworld.cpp",
               "ToolTip": "C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\helloworld\\helloworld.cpp",
               "RelativeToolTip": "helloworld\\helloworld.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAALAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAABUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-03T09:01:20.872Z"
+              "WhenOpened": "2024-04-03T09:01:20.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "dllmain.cpp",
               "DocumentMoniker": "C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\MathLibrary\\dllmain.cpp",
               "RelativeDocumentMoniker": "MathLibrary\\dllmain.cpp",
               "ToolTip": "C:\\Users\\cpat-w-347355\\source\\repos\\MathLibrary\\MathLibrary\\dllmain.cpp",
               "RelativeToolTip": "MathLibrary\\dllmain.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABQAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA4AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-02T09:32:58.892Z",
               "EditorCaption": ""
