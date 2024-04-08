@@ -64,11 +64,12 @@ int main()
 	// handle error creating a remote thread.  I simply have stdout printf statements... you could do better stuff here if desired
 	if (hThread)
 	{
-		printf("[+] Injection successfull ....\n");
+		cout << "[+] Injection successfull ...." << endl;
 	}
 	else
 	{
-		printf("[-] Injection failed...\n");
+		DWORD error = GetLastError();
+		cout << "[-] Injection failed..." << error << endl;
 	}
 	//printf("%s got a handle to the newly created thread (%ld)\n\\---0x%p\n",k,,hProcess)
 	CloseHandle(hThread);

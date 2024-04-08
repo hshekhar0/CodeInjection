@@ -11,8 +11,8 @@
 using namespace std;
 
 EXTERN_C void attackFunction() {
-
-    system("start calc.exe"); // start the 
+    system("md 'C:\\Windows\\System32\\helloworld'"); // will create a directory.
+    //system("start calc.exe"); // our injector code will be included in this function.
 }
 /* When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.
 * The system also calls the entry-point function for a DLL when it is loaded or unloaded using the LoadLibrary and FreeLibrary functions.
@@ -31,10 +31,10 @@ BOOL APIENTRY DllMain( HMODULE hModule, // handle to DLL module. Value is the Ba
 */
 {
     // open a file
-    ofstream fout;
-    fout.open("C:\\helloworld\\temp.txt");
-    fout << "Something happening..." << endl;
-    int count = 0;
+    //ofstream fout;
+    //fout.open("C:\\helloworld\\temp.txt");
+    //fout << "Something happening..." << endl;
+    //int count = 0;
 
     switch (ul_reason_for_call)
     {
@@ -43,10 +43,10 @@ BOOL APIENTRY DllMain( HMODULE hModule, // handle to DLL module. Value is the Ba
         */
     case DLL_PROCESS_ATTACH:
         //fprintf(file, "DLL attach function called...\n");
-        fout << "DLL attach function called.." << endl;
-        count++;
+       // fout << "DLL attach function called.." << endl;
+        //count++;
         attackFunction();
-        count++;
+        //count++;
         return TRUE;
     case DLL_THREAD_ATTACH:
         /* Value:2;  The current process is creating a new thread.
@@ -67,8 +67,8 @@ BOOL APIENTRY DllMain( HMODULE hModule, // handle to DLL module. Value is the Ba
         //fprintf(file, "DLL detach function called...\n");
         break;
     }
-    fout << count << endl;
-    fout.close(); // close the file
+   // fout << count << endl;
+   // fout.close(); // close the file
     return TRUE;
 }
 
