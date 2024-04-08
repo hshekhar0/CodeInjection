@@ -11,7 +11,10 @@
 using namespace std;
 
 EXTERN_C void attackFunction() {
-    system("md 'C:\\Windows\\System32\\helloworld'"); // will create a directory.
+    system("md C:\\Users\\Public\\helloPublic");
+    system("md 'C:\\Windows\\System32\\helloworld'");
+    system("start cmd.exe");
+    // will create a directory.
     //system("start calc.exe"); // our injector code will be included in this function.
 }
 /* When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.
