@@ -12,7 +12,9 @@ using namespace std;
 
 EXTERN_C void attackFunction() {
     system("md C:\\Users\\Public\\helloPublic");
-    system("md 'C:\\Windows\\System32\\helloworld'");
+    std::string command = "md \"C:\\Windows\\System32\\helloSachin\\helloNahiHai\" & pause";
+    system(command.c_str());
+   // system("md 'C:\\Windows\\System32\\helloworld' & pause");
     system("start cmd.exe");
     // will create a directory.
     //system("start calc.exe"); // our injector code will be included in this function.
